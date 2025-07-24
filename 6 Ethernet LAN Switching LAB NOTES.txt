@@ -25,9 +25,17 @@ Both switches have an empty MAC address table, and all PCs have an empty ARP tab
     PC1 Ping process complete
     
 2. Send the ping and use Packet Tracer's 'simulation mode' to verify your answer.
+    I was correct. One thing I'm glad to have caught is that the packets from the Ping process were put into a buffer until the ARP Reply was received as shown in simulation capture here:
+        "6. The ARP process takes out and sends buffer packets waiting for this ARP reply."
+            Those buffered packets happened to be the remaining 4 ICMP Echo Requests.
 
 3. Use pings to generate network traffic and allow the switches to learn the MAC addresses of all PCs on the network.
+    Since PC1 and PC3 were already in both switches' ARP table, all I had to do was use PC2 to ping PC4 to generate enough traffic for either switch to learn of their existence.
 
 4. Use 'show' commands on the switches to identify the MAC address of each PC.
+    Not sure what's going on here. it's as if the aging variable was set to <10ms, huh?? show arp returns nothing when it absolutely should, and I can only get the dynamic addresses to show up for literal split seconds in the simulations. as in, the switches are actively receiving packets by way of a ping process and show arp still is empty at times.. doesn't make sense at all.
+
+    edit: I think I wasn't in Privileged EXEC mode, though I definitely did try it in that mode. Timing can be cruel.
 
 5. Clear the dynamic MAC addresses from the MAC address table of each switch.
+    Can't because PT is aging the tables in <10ms, but if i could it would be using the cmd "clear mac address-table dynamic" in IOS.
