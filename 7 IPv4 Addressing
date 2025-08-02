@@ -10,7 +10,7 @@ IPv4 addresses are 32 bits in length
 
 IPv4 address Classes/prefix lengths [[ipv4classes.png]]
 The first 4 digits of the first octet determine class by numeric range:
-    0 = A             /8    0-127 (126)     <-Class A range is actually 0-126, because 127 is for loopback addresses
+    0 = A             /8    0-127 (126)     <-USABLE class A range is 0-126, because 127 is for loopback addresses
                         Cisco Netmask: 255.0.0.0
                             (11111111.00000000.00000000.00000000)
     10 = B            /16   128-191
@@ -19,7 +19,7 @@ The first 4 digits of the first octet determine class by numeric range:
     110 = C           /24   192-223
                         Cisco Netmask: 255.255.255.0
                             (11111111.111111111.1111111.00000000)
-    1110 = D                224-234         <- Multicast Addresses
+    1110 = D                224-239         <- Multicast Addresses
     11110 = E               240-255         <- Reserved/experimental
 Loopback Addresses are used to test the network stack usually to check availability
     127.0.0.0 -> 127.255.255.255
