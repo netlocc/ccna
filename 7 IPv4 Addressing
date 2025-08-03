@@ -20,7 +20,7 @@ The first 4 digits of the first octet determine class by numeric range:
                         Cisco Netmask: 255.255.255.0
                             (11111111.111111111.1111111.00000000)
     1110 = D                224-239         <- Multicast Addresses
-    11110 = E               240-255         <- Reserved/experimental
+    1111 = E               240-255         <- Reserved/experimental
 Loopback Addresses are used to test the network stack usually to check availability
     127.0.0.0 -> 127.255.255.255
 
