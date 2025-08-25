@@ -28,4 +28,3 @@ df -h                  "Display File"
 
 ncdu
     Kinda like spacesniffer.exe but better (and much faster)
-
