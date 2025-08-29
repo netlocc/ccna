@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "d313b9add4b5cda2",
+    "type": "split",
+    "children": [
+      {
+        "id": "5085c1fb47eb8196",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d55f2d47ca40ab28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "8 IPv4 Addressing 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "8 IPv4 Addressing 2"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2b7ae440c1a2d7aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "1128bca99d37e22f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8df3b0b747e976a4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ea1057378c562a7d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "20864b9c77e9f739",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "7cad6f8906af7f28",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d303011a1e49fdd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "694c3c8cb3be5d6a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "8 IPv4 Addressing 2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 8 IPv4 Addressing 2"
+            }
+          },
+          {
+            "id": "e8bd4d618e3f08db",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "8 IPv4 Addressing 2.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 8 IPv4 Addressing 2"
+            }
+          },
+          {
+            "id": "201b88c49f231c9f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f3a333d5f8d08430",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "8 IPv4 Addressing 2.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 8 IPv4 Addressing 2"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "d55f2d47ca40ab28",
+  "lastOpenFiles": [
+    "images/ipv4classes.png",
+    "8 IPv4 Addressing 2.md",
+    "7 IPv4 Addressing.md",
+    "4 Intro to CLI.md",
+    "images/ipv4class_sizes_and_number_of_networks.png",
+    "images/tcpip basic topology.png",
+    "images/copper cable standards.png",
+    "linux/Learning Linux.md",
+    "linux/Cheatsheet.md",
+    "2 Interfaces and Cables.md"
+  ]
+}
