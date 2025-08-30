@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7cad6f8906af7f28",
@@ -171,8 +172,9 @@
   },
   "active": "d55f2d47ca40ab28",
   "lastOpenFiles": [
-    "7 IPv4 Addressing.md",
+    "images/IPv4firstlabusableaddress.png",
     "8 IPv4 Addressing 2.md",
+    "7 IPv4 Addressing.md",
     "images/ipv4classes.png",
     "4 Intro to CLI.md",
     "images/ipv4class_sizes_and_number_of_networks.png",
